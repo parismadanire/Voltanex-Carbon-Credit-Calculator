@@ -24,10 +24,16 @@ Create a virtual environment and install dependencies
 Project Structure:
 
 carbon_credit_project/
+
 ├── etl/
-│   └── ons_collector.py   # Reads and filters ONS generation CSV
+│   └── emission_factor.py  # Retrieves the emission factor
+│   └── ons_collector.py    # Reads and filters ONS generation CSV
+│   └── carbon_credit.py    # Calculates the carbon credit
+
 ├── main.py                # Main script to run calculation
+
 ├── data/                  # Folder where the ONS CSV is stored
 │   └── geracao_usina_202506.csv
+
 ├── README.md
 └── requirements.txt
