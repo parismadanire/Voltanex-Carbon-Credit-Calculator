@@ -1,4 +1,4 @@
-# Voltanex-Carbon-Credit-Calculator
+# Carbon-Credit-Calculator
 Carbon Credit Generator
 This project simulates carbon credit tokenization using real energy generation data from Brazil’s ONS (Operador Nacional do Sistema Elétrico). It parses generation data from a monthly .csv file and calculates the estimated carbon credits produced, which can be further tokenized on Avalanche. In this project the most recent data is being used which is from the month of June 2025.
 
